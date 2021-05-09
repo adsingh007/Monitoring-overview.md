@@ -20,7 +20,7 @@ Here we are using tools which are mentioned below.
 ## Overview
 
 Nagios monitors  entire IT infrastructure to ensure systems, applications, services, and business processes are functioning properly. In the event of a failure, Nagios can alert technical staff of the problem, allowing them to begin remediation processes before outages affect business processes, end-users, or customers.
-## Features :-  <img src="https://github.com/adsingh007/nagios-overview.md/blob/main/nagios.png" align="right" width="20%">
+## Features :-  <img src="https://github.com/adsingh007/nagios-overview.md/blob/main/nagios.png" align="right" width="50%">
 - Powerful script APIs allow easy monitoring of applications, services, and systems
 - Multi-user access to web interface allows to view infrastructure status
 - Alerts can be delivered to technical staff via email or SMS
