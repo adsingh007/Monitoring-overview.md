@@ -7,6 +7,8 @@ Server Monitoring is a process to monitor server's system resources like CPU Usa
 ps ,top , netstat , iostat and many more.
 ```
 <img src="https://github.com/adsingh007/nagios-overview.md/blob/main/top.png" align="left"> <br/>
+
+
 ## Tech
 We use diffrent DevOps tools for monitoring the servers and services in IT infrastructure. It provides high productivity , Higher-performing system and help us to reduce downtime of any services. 
 Here we are using tools which are mentioned below.
