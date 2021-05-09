@@ -6,7 +6,7 @@ Server Monitoring is a process to monitor server's system resources like CPU Usa
 ```sh
 ps ,top , netstat , iostat and many more.
 ```
-<img src="https://github.com/adsingh007/nagios-overview.md/blob/main/top.png" align="left"> <br/>
+<img src="https://github.com/adsingh007/nagios-overview.md/blob/main/top.png" > <br/>
 
 
 ## Tech
