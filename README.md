@@ -19,7 +19,7 @@ Here we are using tools which are mentioned below.
 # Nagios
 ## Overview
 
-Nagios monitors  entire IT infrastructure to ensure systems, applications, services, and business processes are functioning properly. In the event of a failure, Nagios can alert technical staff of the problem, allowing them to begin remediation processes before outages affect business processes, end-users, or customers.
+Nagios is an open source monitoring system for computer systems. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems. Nagios monitors  entire IT infrastructure to ensure systems, applications, services, and business processes are functioning properly. In the event of a failure, Nagios can alert technical staff of the problem, allowing them to begin remediation processes before outages affect business processes, end-users, or customers.
 ## Features :-  <img src="https://github.com/adsingh007/nagios-overview.md/blob/main/nagios.png" align="right" width="60%">
 - Powerful script APIs allow easy monitoring of applications, services, and systems
 - Multi-user access to web interface allows to view infrastructure status
