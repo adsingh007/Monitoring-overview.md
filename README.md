@@ -159,3 +159,12 @@ define service {
 ```
 
 </details>
+
+
+# Grafana
+## Overview 
+Grafana is an open-source, cross-platform analytics service tool that can be used to fetch data from several data sources, and then the data can be visualized in a much intuitive way in the form of bars and graphs. This is quite a useful feature for the DevOps or the IT team.Grafana makes it easy to construct and customize the display properties so that you can create the perfect dashboard for your need. Each panel can interact with data from any configured Grafana Data Source (currently Graphite, Prometheus, Elasticsearch, InfluxDB etc.
+## Features     <img src="https://github.com/adsingh007/Monitoring-overview.md/blob/main/grafana-dashboard-demo.png" align="right" width="50%">
+- Create, edit, save & search dashboards
+- Change column spans and row heights
+- Drag and drop panels to rearrange
