@@ -33,6 +33,7 @@ Nagios is an open source monitoring system for computer systems. It was designed
 3.	Nagios web interface will be available at http://localhost/nagios
 
 <details>
+    
 ### Step 1: Install Required Dependencies
 We need to install Apache, PHP and some libraries like gcc, glibc, glibc-common and GD libraries and its development libraries before installing Nagios 4.4.5 with the source. And to do so, we can use yum default package installer.
 - yum install -y httpd httpd-tools php gcc glibc glibc-common gd gd-devel make net-snmp
@@ -108,6 +109,7 @@ Changed the owner-ship of nrpe.service for read and execution
 - systemctl start nrpe.service
 Now start the nrpe service on client side.
 #### Config file to add host & services in nagios server.
+
 ```sh
 define host {
 
@@ -124,34 +126,34 @@ define host {
     notification_period     24x7
     notification_interval   120
     notification_options    d,u,r
-   # contact_groups          admins,critical
+    contact_groups          admins,critical
 }
 define service {
 
     use                     local-service           ; Name of service template to use
     host_name               redhat_clint.server
-   # hostgroup_name
+    hostgroup_name
     service_description     Root Partition
     check_command           check_disk
     check_interval          1
     check_period            24x7
     retry_interval          2
     max_check_attempts      3
- #   contact_groups          admins,critical
+    contact_groups          admins,critical
 }
 
 define service {
 
     use                     local-service           ; Name of service template to use
     host_name               redhat_clint.server
-   # hostgroup_name
+    hostgroup_name
     service_description     Average load
     check_command           check_load
     check_interval          1
     check_period            24x7
     retry_interval          2
     max_check_attempts      3
- #   contact_groups          admins,critical
+    contact_groups          admins,critical
 }
 
 ```
